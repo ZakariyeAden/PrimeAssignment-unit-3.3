@@ -41,10 +41,20 @@ console.log('6. Showing supplyChanges...');
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
 console.log('7. Showing supplyChanges with "for of" loop');
-
+  for(supplies of supplyChanges){
+    if(supplies > 0){
+      console.log(supplies);
+    }
+  }
 // 8. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
+  let total = 0;
+  for(let i = 0; i < supplyChanges.length; i++){
+    total = total + supplyChanges[i];
+  }
+  console.log(total);
+  
 
 // 9. We have a large stash of parts in our warehouse that we 
 //    need to box up and get ready for shipment. 
@@ -53,3 +63,25 @@ console.log('8. Total supplies available is:');
 //    no more boxes can be filled.
 //    Then log how many boxes were filled, and how many parts are left over.
 console.log('9. Filling boxes with a "while" loop');
+
+
+//********************************* */
+//********************************* */ 
+// I Couldn't Figure it but, will this be discussed in class ? Will you guys help me on this?
+//********************************* */
+//********************************* */
+//********************************* */
+
+
+
+  // let box = 0;
+  // let i = 0;
+  // while(i <= 572){
+  //   console.log('Box 1:', box[i])
+  //   console.log('Box 2:', box[i])
+  //   console.log('Box 3:', box[i])
+  //   console.log('Box 4:', box[i])
+  //   console.log('Box 5:', box[i])
+  //   console.log('Box 6:', box[i])
+  //   console.log('Box 7:', box[i])
+  // }
