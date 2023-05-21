@@ -72,8 +72,6 @@ console.log('9. Filling boxes with a "while" loop');
 //********************************* */
 //********************************* */
 
-
-
   // let box = 0;
   // let i = 0;
   // while(i <= 572){
