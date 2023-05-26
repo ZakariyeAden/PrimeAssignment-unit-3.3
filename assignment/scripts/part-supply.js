@@ -89,3 +89,20 @@ console.log('9. Filling boxes with a "while" loop');
   //   console.log('Box 6:', box[i])
   //   console.log('Box 7:', box[i])
   // }
+
+
+
+//********************************* */ 
+// Correct Answer
+//********************************* */
+
+// let i = 0;
+// // Create variables for max parts and box size
+// let maxParts = 572;
+// let boxSize = 7;
+// // Check if there is room for parts
+// while(i + boxSize <= maxParts) {
+//   // Add seven parts
+//   i += 7;
+// }
+// console.log(i);
