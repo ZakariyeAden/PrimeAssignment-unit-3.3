@@ -49,7 +49,7 @@ console.log('---  Stretch Goals  ---');
 console.log('7. Showing supplyChanges with "for of" loop');
   for(supplies of supplyChanges){
     if(supplies > 0){
-      console.log(supplies);
+      console.log(`Supplies:${supplies}`);
     }
   }
 // 8. Write a loop to determine the total number of parts available by
@@ -59,7 +59,7 @@ console.log('8. Total supplies available is:');
   for(let i = 0; i < supplyChanges.length; i++){
     total = total + supplyChanges[i];
   }
-  console.log(total);
+  console.log(`Total: ${total}`);
   
 
 // 9. We have a large stash of parts in our warehouse that we 
@@ -96,13 +96,13 @@ console.log('9. Filling boxes with a "while" loop');
 // Correct Answer
 //********************************* */
 
-// let i = 0;
-// // Create variables for max parts and box size
-// let maxParts = 572;
-// let boxSize = 7;
-// // Check if there is room for parts
-// while(i + boxSize <= maxParts) {
-//   // Add seven parts
-//   i += 7;
-// }
-// console.log(i);
+let i = 0;
+// Create variables for max parts and box size
+let maxParts = 572;
+let boxSize = 7;
+// Check if there is room for parts
+while(i + boxSize <= maxParts) {
+  // Add seven parts
+  i += 7;
+}
+console.log(i);
